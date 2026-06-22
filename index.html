@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư mời tham dự hội nghị sơ kết</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h3>CÔNG AN THÀNH PHỐ ĐỒNG NAI</h3>
+        <h3>CÔNG AN PHƯỜNG LONG THÀNH</h3>
+    </div>
+</header>
+
+<div class="sub-container container">
+    <h1>DỰ HỘI NGHỊ SƠ KẾT</h1>
+    <p>CÔNG TÁC CÔNG AN 06 THÁNG ĐẦU NĂM 2026</p>
+    <p>VÀ TRIỂN KHAI NHIỆM VỤ CÔNG TÁC 06 THÁNG CUỐI NĂM 2026</p>
+    <p class="date">Long Thành, ngày  tháng 06 năm 2026</p>
+</div>
+
+<section class="invite-container container">
+    <h2>Trân trọng kính mời</h2>
+    <p>
+        Quý đại biểu đến dự Hội nghị sơ kết công tác Công an 06 tháng đầu năm 2026
+        và triển khai nhiệm vụ công tác 06 tháng cuối năm 2026.
+    </p>
+
+    <div class="info-box">
+        <p><strong>Thời gian:</strong> 14h00 ngày .../06/2026.</p>
+        <p><strong>Địa điểm:</strong> Hội trường A - Công an phường (lầu 5).</p>
+        <p>Sự hiện diện của đồng chí là niềm vinh dự và góp phần làm cho Hội nghị thành công tốt đẹp./.</p>
+    </div>
+</section>
+
+<section class="program container">
+    <h2>Chương trình hội nghị</h2>
+
+    <ol>
+        <li>Tiếp đón đại biểu và ổn định tổ chức.</li>
+        <li>Chào cờ.</li>
+        <li>Tuyên bố lý do, giới thiệu đại biểu.</li>
+        <li>Phát biểu khai mạc.</li>
+        <li>Xem video tóm tắt kết quả công tác Công an phường 06 tháng đầu năm 2026 và triển khai nhiệm vụ công tác 06 tháng cuối năm 2026.</li>
+        <li>Tham luận.</li>
+        <li>Phát biểu chỉ đạo của Lãnh đạo phường.</li>
+        <li>Phát biểu chỉ đạo của Lãnh đạo thành phố.</li>
+        <li>Công an phường tiếp thu ý kiến.</li>
+        <li>Kết luận Hội nghị.</li>
+        <li>Bế mạc.</li>
+    </ol>
+</section>
+
+<section class="confirmation container">
+    <h2>Xác nhận tham gia</h2>
+
+    <form action="camon.html" method="get">
+        <label for="fullname">Họ và tên</label>
+        <input id="fullname" type="text" name="fullname" placeholder="Nhập họ tên" required>
+
+        <label for="unit">Đơn vị</label>
+        <input id="unit" type="text" name="unit" placeholder="Nhập đơn vị">
+
+        <label>Đồng chí có tham gia không?</label>
+        <div class="radio-group">
+            <label>
+                <input type="radio" name="attend" value="yes" required>
+                Có tham gia
+            </label>
+
+            <label>
+                <input type="radio" name="attend" value="no">
+                Không tham gia
+            </label>
+        </div>
+
+        <label for="note">Ghi chú</label>
+        <textarea id="note" name="note" placeholder="Ghi chú thêm"></textarea>
+
+        <button type="submit">Xác nhận</button>
+    </form>
+</section>
+
+<footer>
+    <p><strong>TRƯỞNG CÔNG AN</strong></p>
+    <p>Thiếu tá Lê Huy Thông</p>
+</footer>
+
+</body>
+</html>
